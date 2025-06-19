@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f1e7;
+    color: #3a3a3a;
+}
+
+header {
+    background-color: #6c9a8b;
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-family: 'Elsie Swash Caps', cursive;
+    font-size: 3em;
+    margin: 0;
+}
+
+main {
+    padding: 30px 20px;
+}
+
+.servicos, .contato {
+    margin-bottom: 40px;
+}
+
+.servicos h2, .contato h2 {
+    color: #4a6839;
+    font-family: 'Elsie Swash Caps', cursive;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+button {
+    background-color: #8bb174;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #6c9a8b;
+}
+
+footer {
+    background-color: #3f5e3f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
